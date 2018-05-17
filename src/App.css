@@ -1,3 +1,23 @@
+body {
+  display: flex;
+  justify-content: center;
+}
+
+.outer-container {
+  margin: 20px;
+  padding: 10px;
+  width: 400px;
+  background-color: yellowgreen;
+  border-radius: 3px;
+  box-shadow: 5px 5px 2px grey;
+}
+
+.header {
+  text-align: center;
+  padding: 10px;
+  font-size: 30px;
+}
+
 .container {
   display: flex;
   align-items: center;
@@ -6,6 +26,7 @@
 }
 
 .item {
+  background-color: green;
   height: 40px;
   width: 300px;
   border: 1px solid black;
